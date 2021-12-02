@@ -1,4 +1,4 @@
-where a = """input""".split('\n')
+a = """input""".split('\n')
 #For Part 1
 horizontal = 0
 vertical = 0
