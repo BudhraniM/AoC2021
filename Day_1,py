@@ -1,0 +1,12 @@
+a1 = [int(i) for i in a]
+countpart1 = 0 
+countpart2 = 0
+for i in range(1, len(a1)):
+    if a1[i] > a1[i-1]:
+        countpart1 += 1
+print (countpart1)
+
+for i in range(2, len(a1)-2):
+    if (a1[i-1] + a1[i] + a1[i+1]) < (a1[i] + a1[i+1] + a1[i+2]):
+        countpart2 += 1
+print(countpart2)
