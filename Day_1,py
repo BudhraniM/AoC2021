@@ -1,3 +1,4 @@
+a = """input""".split('\n')
 a1 = [int(i) for i in a]
 countpart1 = 0 
 countpart2 = 0
